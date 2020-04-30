@@ -1,3 +1,3 @@
-🏨🏨🏨🏨 THE TRILLO PROJECT 🏨🏨🏨🏨
+# 🏨🏨🏨🏨 THE TRILLO PROJECT 🏨🏨🏨🏨
 
-from Jonas Schmedtmann advanced sass, css and animations course.
+### from Jonas Schmedtmann advanced sass, css and animations course.
