@@ -13,7 +13,8 @@ COLORS
   --color-grey-dark-2: #777;
   --color-grey-dark-3: #999;
 */
-
+///////////////////////////////////
+//CSS VARIABLES
 :root {
   --color-primary: #eb2f64;
   --color-primary-light: #ff3366;
@@ -34,6 +35,14 @@ COLORS
   --line: 1px solid var(--color-grey-light-2);
 }
 
+///////////////////////////////////
+//SASS VARIABLES
+$bp-largest: 75em; //1200px/16px = 75em
+$bp-large: 68.5em; //1100px/16px = 68.5em
+$bp-medium: 56.25em; //900px/16px = 56.25em
+$bp-small: 37.5em; //600px/16px = 37.5em
+$bp-smallest: 31.25em; //500px/16px = 31.25em
+
 * {
   margin: 0;
   padding: 0;
@@ -48,6 +57,10 @@ COLORS
 html {
   box-sizing: border-box;
   font-size: 62.5%; // 10px/16px = 62.5%
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%;
+  }
 }
 
 body {
